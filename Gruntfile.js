@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         },
         concat: {
             dist: {
-                src: ['dev/js/jquery-3.3.1.min.js', 'node_modules/fullpage.js/dist/jquery.fullpage.min.js', 'dev/js/main.min.js'],
+                src: ['dev/js/jquery-3.3.1.min.js', 'node_modules/parallax-js/dist/parallax.min.js', 'node_modules/fullpage.js/dist/jquery.fullpage.min.js', 'dev/js/main.min.js'],
                 dest: 'app/js/all.min.js'
             }
         },
