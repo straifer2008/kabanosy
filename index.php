@@ -15,16 +15,21 @@
 
 <header class="header">
     <div class="logo-wrap">
-        <a href="#">
+        <a href="#" class="logo-link">
             <img src="app/img/logo.png" alt="" class="logo">
         </a>
     </div>
     
     <nav class="header-nav">
+        <a href="" class="closeIcon">
+            <img src="app/img/closeIcon.png" alt="">
+        </a>
         <ul class="header-menu__ul" id="myMenu">
             <span class="bgMenuWhite"></span>
             <li data-menuanchor="firstPage" id="firstPage" class="header-menu__ul_li active">
-                <a href="#firstPage" class="active__firrstLink">Дмитрук</a>
+                <a href="#firstPage" class="active__firrstLink">
+                    <img src="app/img/logo_text.png" alt="" class="logo-text">
+                </a>
             </li>
             <li data-menuanchor="secondPage" id="secondPage" class="header-menu__ul_li">
                 <a href="#secondPage">Про кабаноси</a>
@@ -38,6 +43,17 @@
             <li data-menuanchor="fifthPage" id="fifthPage" class="header-menu__ul_li">
                 <a href="#fifthPage">Контакти</a>
             </li>
+
+            <div class="number-wrap">
+                <p class="number-wrap__first-p">
+                    <span>Телефон гарячої лінії:</span>
+                    <span>0 800 50 52 44</span>
+                </p>
+                <p class="number-wrap__last-p">
+                    <span>© 2007-2017 ТМ Дмитрук</span>
+                    <span>Розроблено в <a href="#" class="wetelo-link">Wetelo</a>.</span>
+                </p>
+            </div>
         </ul>
     </nav>
 
@@ -154,8 +170,7 @@
                         <span>Це високояекісний продукт, що виготовляється з м’яса.</span>
                         <span>Без жодних домішок фосфатів, барвників, глутамату та глютагену</span>
                     <p class="about-content__main_bigBottomText">
-                        Будь-де
-                        <span>Та будь-коли!</span>
+                        <img src="app/img/anywhere.png" alt="">
                     </p>
                 </div>
 
@@ -164,10 +179,12 @@
         </div>
         <div class="section products productOne" data-anchor="thirdPage">
             <div class="products-wrap">
-                <div class="products-bg-blocks__left"></div>
+                <div class="products-bg-blocks__left">
+                    <h1 class="product-title">На пікніку</h1>
+                </div>
                 <div class="products-block__right">
                     <div class="products-block__right_content">
-                        <h1 class="product-right__title">Original</h1>
+                        <h1 class="product-right__title">Delicate</h1>
                         <p class="product-right__little-title">З добірної свинини</p>
                         <span class="product-table__title_before">
                             Харчова цінність на 100г продукту:
@@ -208,15 +225,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-scroll" data-parallax="scroll"></div>
             </div>
         </div>
         <div class="section products productTwo">
             <div class="products-wrap">
-                <div class="products-bg-blocks__left"></div>
+                <div class="products-bg-blocks__left">
+                    <h1 class="product-title">У подорожі</h1>
+                </div>
                 <div class="products-block__right">
                     <div class="products-block__right_content">
                         <h1 class="product-right__title">Original</h1>
-                        <p class="product-right__little-title">З добірної свинини</p>
+                        <p class="product-right__little-title">З ніжної курятини</p>
                         <span class="product-table__title_before">
                             Харчова цінність на 100г продукту:
                         </span>
@@ -227,7 +247,7 @@
                             </tr>
                             <tr>
                                 <td>Жирів</td>
-                                <td>46 г</td>
+                                <td>43 г</td>
                             </tr>
                             <tr>
                                 <td>Вуглеводів</td>
@@ -236,7 +256,7 @@
                         </table>
                         <p class="product-table__title_after">
                             Унергетична цінність за 100 г продукту:
-                            <span>2046 кДж / 542 ккал</span>
+                            <span>2135 кДж / 515 ккал</span>
                         </p>
                         <div class="product-tiket-wrap">
                             <div class="product-tiket-wrap__row">
@@ -256,26 +276,32 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-scroll"></div>
             </div>
         </div>
         <div class="section products productThre">
             <div class="products-wrap">
-                <div class="products-bg-blocks__left"></div>
+                <div class="products-bg-blocks__left">
+                    <h1 class="product-title">В дорозі</h1>
+                </div>
                 <div class="products-block__right">
                     <div class="products-block__right_content">
-                        <h1 class="product-right__title">Original</h1>
-                        <p class="product-right__little-title">З добірної свинини</p>
+                        <h1 class="product-right__title">Cheese</h1>
+                        <p class="product-right__little-title">
+                            З ніжної курятини <br>
+                            та твердого сиру
+                        </p>
                         <span class="product-table__title_before">
                             Харчова цінність на 100г продукту:
                         </span>
                         <table class="product-table">
                             <tr>
                                 <td>Білків</td>
-                                <td>27 г</td>
+                                <td>25 г</td>
                             </tr>
                             <tr>
                                 <td>Жирів</td>
-                                <td>46 г</td>
+                                <td>41 г</td>
                             </tr>
                             <tr>
                                 <td>Вуглеводів</td>
@@ -284,7 +310,7 @@
                         </table>
                         <p class="product-table__title_after">
                             Унергетична цінність за 100 г продукту:
-                            <span>2046 кДж / 542 ккал</span>
+                            <span>2042 кДж / 493 ккал</span>
                         </p>
                         <div class="product-tiket-wrap">
                             <div class="product-tiket-wrap__row">
@@ -304,15 +330,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-scroll"></div>
             </div>
         </div>
         <div class="section products productFour">
             <div class="products-wrap">
-                <div class="products-bg-blocks__left"></div>
+                <div class="products-bg-blocks__left">
+                    <h1 class="product-title">На дивані</h1>
+                </div>
                 <div class="products-block__right">
                     <div class="products-block__right_content">
-                        <h1 class="product-right__title">Original</h1>
-                        <p class="product-right__little-title">З добірної свинини</p>
+                        <h1 class="product-right__title">Chili</h1>
+                        <p class="product-right__little-title">
+                            З добірної свинини <br>
+                            та червоного сиру
+                        </p>
                         <span class="product-table__title_before">
                             Харчова цінність на 100г продукту:
                         </span>
@@ -327,12 +359,12 @@
                             </tr>
                             <tr>
                                 <td>Вуглеводів</td>
-                                <td>2,3 г</td>
+                                <td>3,1 г</td>
                             </tr>
                         </table>
                         <p class="product-table__title_after">
                             Унергетична цінність за 100 г продукту:
-                            <span>2046 кДж / 542 ккал</span>
+                            <span>2233 кДж / 359 ккал</span>
                         </p>
                         <div class="product-tiket-wrap">
                             <div class="product-tiket-wrap__row">
@@ -352,15 +384,25 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-scroll"></div>
             </div>
         </div>
         <div class="section products productFive">
             <div class="products-wrap">
-                <div class="products-bg-blocks__left"></div>
+                <div class="product-scroll product-scroll__lastPage"></div>
+                <div class="products-bg-blocks__left">
+                    <h1 class="product-title">
+                        <span>На один</span>
+                        <span>укус</span>
+                    </h1>
+                </div>
                 <div class="products-block__right">
                     <div class="products-block__right_content">
-                        <h1 class="product-right__title">Original</h1>
-                        <p class="product-right__little-title">З добірної свинини</p>
+                        <h1 class="product-right__title">Chili</h1>
+                        <p class="product-right__little-title">
+                            З добірної свинини <br>
+                            та червоного сиру
+                        </p>
                         <span class="product-table__title_before">
                             Харчова цінність на 100г продукту:
                         </span>
@@ -375,12 +417,12 @@
                             </tr>
                             <tr>
                                 <td>Вуглеводів</td>
-                                <td>2,3 г</td>
+                                <td>3,1 г</td>
                             </tr>
                         </table>
                         <p class="product-table__title_after">
                             Унергетична цінність за 100 г продукту:
-                            <span>2046 кДж / 542 ккал</span>
+                            <span>2233 кДж / 359 ккал</span>
                         </p>
                         <div class="product-tiket-wrap">
                             <div class="product-tiket-wrap__row">
@@ -408,11 +450,22 @@
             </p>
         </div>
         <div class="section contacts" data-anchor="fifthPage">
-            <p class="cpntact__content">
-                Сторінка КОНТАКТИ
-                <img src="app/img/scrollImg.png" class="skrollImg" alt="">
-                <img src="app/img/scrollImg.png" class="skrollImg" alt="">
-            </p>
+            <div class="contact__content">
+                <div class="scrollImgWrapper">
+                    <div class="skroll-cell skroll-cell__left">
+                        <img src="app/img/cheese.png" class="skrollImg skrollImg__cheese" alt="">
+                        <img src="app/img/chili.png" class="skrollImg skrollImg__chili" alt="">
+                        <img src="app/img/cheese.png" class="skrollImg skrollImg__cheese" alt="">
+                        <img src="app/img/chili.png" class="skrollImg skrollImg__chili" alt="">
+                    </div>
+                    <div class="skroll-cell skroll-cell__right">
+                        <img src="app/img/original.png" class="skrollImg skrollImg__oroginal" alt="">
+                        <img src="app/img/delicate.png" class="skrollImg skrollImg__delicate" alt="">
+                        <img src="app/img/original.png" class="skrollImg skrollImg__oroginal" alt="">
+                        <img src="app/img/delicate.png" class="skrollImg skrollImg__delicate" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </main>
