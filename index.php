@@ -23,6 +23,7 @@
     <nav class="header-nav">
         <a href="" class="closeIcon">
             <img src="app/img/closeIcon.png" alt="">
+            <span class="burger-menu"></span>
         </a>
         <ul class="header-menu__ul" id="myMenu">
             <span class="bgMenuWhite"></span>
