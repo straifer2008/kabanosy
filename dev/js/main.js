@@ -193,9 +193,6 @@ $( document ).ready(function() {
 
         }
     });
-
-
-
 });
 
 var scene = document.getElementById('scene');
@@ -250,3 +247,13 @@ var parallaxInstance10 = new Parallax(scene10, {
 });
 
 //Мобільне меню
+$(document).ready(function(){
+    $('#nav-icon1, .header-menu__ul_li').click(function toggle (){
+        $(this).toggleClass('open');
+        $('.header-menu__ul').toggleClass('header-menu__ul_bg');
+        $('.toggleClass-v').toggleClass('visability');
+        $('.number-wrap').toggleClass('number-wrap__toggle');
+        var height = $('.main').height();
+        $('.header-menu__ul_bg').css('height', height);
+    });
+});

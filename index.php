@@ -19,12 +19,15 @@
             <img src="app/img/logo.png" alt="" class="logo">
         </a>
     </div>
-    
+    <div class="burger-menu">
+        <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
     <nav class="header-nav">
-        <a href="" class="closeIcon">
-            <img src="app/img/closeIcon.png" alt="">
-            <span class="burger-menu"></span>
-        </a>
         <ul class="header-menu__ul" id="myMenu">
             <span class="bgMenuWhite"></span>
             <li data-menuanchor="firstPage" id="firstPage" class="header-menu__ul_li active">
@@ -32,16 +35,16 @@
                     <img src="app/img/logo_text.png" alt="" class="logo-text">
                 </a>
             </li>
-            <li data-menuanchor="secondPage" id="secondPage" class="header-menu__ul_li">
+            <li data-menuanchor="secondPage" id="secondPage" class="header-menu__ul_li toggleClass-v visability">
                 <a href="#secondPage">Про кабаноси</a>
             </li>
-            <li data-menuanchor="thirdPage" id="thirdPage" class="header-menu__ul_li">
+            <li data-menuanchor="thirdPage" id="thirdPage" class="header-menu__ul_li toggleClass-v visability">
                 <a href="#thirdPage" id="startPage">Смаки</a>
             </li>
-            <li data-menuanchor="fourthPage" id="fourthPage" class="header-menu__ul_li">
+            <li data-menuanchor="fourthPage" id="fourthPage" class="header-menu__ul_li toggleClass-v visability">
                 <a href="#fourthPage">Технологія</a>
             </li>
-            <li data-menuanchor="fifthPage" id="fifthPage" class="header-menu__ul_li">
+            <li data-menuanchor="fifthPage" id="fifthPage" class="header-menu__ul_li toggleClass-v visability">
                 <a href="#fifthPage">Контакти</a>
             </li>
 
